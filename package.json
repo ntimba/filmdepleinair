@@ -1,0 +1,17 @@
+{
+  "name": "filmdepleinair",
+  "version": "1.0.0",
+  "description": "projet 3 de la formation developpeur d'application php/symfony - OpenClassrooms",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded"
+  },
+  "author": "Chancy",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
