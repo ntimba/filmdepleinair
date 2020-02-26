@@ -6,13 +6,65 @@
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./node_modules/fontawesome/">
-</head>
-<body>
-    
+
+    <link rel="icon" href="./public/imgs/favicon.png" type="image/png" sizes="32x32">
     
 
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,500i|Martel:300,400|Trirong:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light nav ">
+        <a class="navbar-brand" href="#"> <img class="logo" src="./public/imgs/logo_pleinair.png" alt="les films de plein air"> </a>
+        <button class="navbar-toggler manu-bars" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav__link nav__link--active">
+                      <a class="" href="#">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav__link">
+                    <a class="" href="#">Réservation</a>
+                </li>
+                <li class="nav__link">
+                    <a class="" href="#">Actualité</a>
+                </li>
+                <li class="nav__link">
+                    <a class="" href="#">Contact</a>
+                </li>
+                <li class="nav__link __link--button d-none d-lg-block"><!-- Desactiver pour les smartphone -->
+                    <a href="">Reserver</a>
+                </li>
+            </ul>
+        </div>
+    </nav>    
+
+
+
+
+
+
+<div class="container">
+    <br><br><br><br>
+    <!-- bouton normal -->
+    <button type="button" class="btn btn-primary">Bouton normal</button>
+
+    <br><br><br>
     
     
+    <!-- Lien sous forme de bouton -->
+    <a href="#" class="btn">Lien bouton</a>
+    
+</div>
+    
+
+
+
+
+
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
     <script src="./node_modules/jquery/dist/jquery.slim.js"></script>
     <script src="./node_modules/popper.js/dist/popper.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>

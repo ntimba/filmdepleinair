@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*
+définir html font-size: 62.5%
+
+
+
+*/
+body {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  font-family: "Trirong", serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Fira Sans", serif;
+}
+
+/*
+1. définir le font-family
+2. définir le font-weight
+3. définir le font-size
+4. définir le font-style 
+
+de tout les elements
+h1, body, textearea, input, button
+
+*/
+.btn {
+  background-color: red;
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
