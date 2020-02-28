@@ -4,7 +4,9 @@
   "description": "projet 3 de la formation developpeur d'application php/symfony - OpenClassrooms",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded"
+    "sass": "sass --watch ./scss/main.scss:./public/css/style.css --style expanded",
+    "reload": "browser-sync start --server './' --files './'",
+    "dev": "concurrently \"npm:reload\" \"npm:sass\""
   },
   "author": "Chancy",
   "license": "MIT",
@@ -13,5 +15,12 @@
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-sass": "^4.0.2"
   }
 }

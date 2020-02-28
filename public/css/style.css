@@ -30,8 +30,9 @@ h1, body, textearea, input, button
 
 */
 .btn {
-  background-color: red;
-  color: yellow;
+  border-radius: 0;
+  background-color: #707070;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
