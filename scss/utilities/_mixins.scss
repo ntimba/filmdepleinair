@@ -1,5 +1,40 @@
+    // <!-- Liens -->
+    // <a href="#" class="link">Lien</a>
+    // <!-- lien standard -->
+    // <a href="#" class="link-standard"></a>
+    // <!-- lien souligner -->
+    
+
+
+    // <!-- COMPONENTS -->
+    // <!-- Card -->
+    // <!-- Card description -->
+    // <!-- Card article horizontal -->
+    // <!-- card article vertical -->
+    // <!-- Card video -->
+
+    // <!-- Formulaire -->
+    // <!-- Bouton -->
+    // <!-- Champ input -->
+    
+    
+    // <!-- Social media -->
+
+
+
+// Button
 @mixin btn {
-    border-radius: 0;
-    background-color: #707070;
-    color: #fff;
+    background:$color-primary;
+    color: $color-secondary;
+    font-weight: $semibold;
+    font-family: $display;
+    border-radius: none;
+    padding: $btn-pole $btn-side;
+    border: none;
+}
+
+// Link
+@mixin link {
+    text-decoration: none;
+    color: $color-secondary;
 }

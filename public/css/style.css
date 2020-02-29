@@ -1,15 +1,3 @@
-@charset "UTF-8";
-/*
-définir html font-size: 62.5%
-
-
-
-*/
-body {
-  box-sizing: border-box;
-  width: 100%;
-}
-
 body {
   font-family: "Trirong", serif;
   font-weight: 300;
@@ -19,20 +7,14 @@ h1 {
   font-family: "Fira Sans", serif;
 }
 
-/*
-1. définir le font-family
-2. définir le font-weight
-3. définir le font-size
-4. définir le font-style 
-
-de tout les elements
-h1, body, textearea, input, button
-
-*/
-.btn {
-  border-radius: 0;
-  background-color: #707070;
-  color: #fff;
+.button {
+  background: #ffcc00;
+  color: #333;
+  font-weight: 500;
+  font-family: "Fira Sans", serif;
+  border-radius: none;
+  padding: 0.4rem 0.9rem;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
