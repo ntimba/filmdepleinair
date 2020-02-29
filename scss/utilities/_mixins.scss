@@ -1,24 +1,3 @@
-    // <!-- Liens -->
-    // <a href="#" class="link">Lien</a>
-    // <!-- lien standard -->
-    // <a href="#" class="link-standard"></a>
-    // <!-- lien souligner -->
-    
-
-
-    // <!-- COMPONENTS -->
-    // <!-- Card -->
-    // <!-- Card description -->
-    // <!-- Card article horizontal -->
-    // <!-- card article vertical -->
-    // <!-- Card video -->
-
-    // <!-- Formulaire -->
-    // <!-- Bouton -->
-    // <!-- Champ input -->
-    
-    
-    // <!-- Social media -->
 
 
 
@@ -33,8 +12,89 @@
     border: none;
 }
 
-// Link
+// Links
 @mixin link {
-    text-decoration: none;
     color: $color-secondary;
+    font-weight: $semibold;
+    text-decoration: none;
+}
+
+@mixin link-hover {
+    text-decoration: none;
+    font-weight: $semibold;
+}
+
+@mixin link-decorated {
+    border-bottom: $extra-small;
+}
+
+@mixin link-decorated-hover {
+    text-decoration: none;
+    background-color: $color-primary;
+}
+
+// Titles
+@mixin title {
+    font-family: $display;
+}
+
+
+// textes
+@mixin text {
+    font-family: $text;
+}
+
+@mixin drop-caps {
+    color: $color-secondary;
+    background-color: $color-primary;
+    font-weight: $semibold;
+    padding: $extra-small;
+}
+
+// Sizes
+@mixin extra-small {
+    font-size: $extra-small;
+}
+
+@mixin small {
+    font-size: $small;
+}
+
+@mixin medium {
+    font-size: $medium;
+}
+
+@mixin large {
+    font-size: $large;
+}
+
+@mixin extra-large {
+    font-size: $extra-large;
+}
+
+// Card meta
+@mixin card-meta {
+    color: $color-tertiary;
+    text-transform: uppercase;
+}
+
+// Play button
+@mixin play-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $color-primary;
+    font-size: $small;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+
+@mixin social-media {
+    list-style-type: none;
+    padding-left: 0
+}
+
+@mixin input {
+    border: 1px solid $color-quaternary;
+    padding: $mall $large;
+    font-weight: $semibold;
 }

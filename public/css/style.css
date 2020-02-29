@@ -1,4 +1,8 @@
 body {
+  font-family: "Martel", serif;
+}
+
+body {
   font-family: "Trirong", serif;
   font-weight: 300;
 }
@@ -10,11 +14,22 @@ h1 {
 .button {
   background: #ffcc00;
   color: #333;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Fira Sans", serif;
   border-radius: none;
   padding: 0.4rem 0.9rem;
   border: none;
+}
+
+.card {
+  border-radius: 0px;
+  padding: 2rem;
+}
+.card__title {
+  font-family: "Fira Sans", serif;
+}
+.card__icon {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+.card{
+    border-radius: 0px;
+    padding: 2rem;
+    &__title{
+        font-family: $display;
+    }
+    &__icon{
+        font-size: 2rem;
+    }
+    
+}
