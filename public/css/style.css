@@ -10,7 +10,6 @@ h1 {
 .button {
   background: #ffcc00;
   color: #333;
-  font-weight: 600;
   font-family: "Fira Sans", serif;
   border-radius: none;
   padding: 0.5rem 1.5rem;
@@ -19,6 +18,8 @@ h1 {
 }
 
 .card {
+  background: none;
+  border: none;
   border-radius: 0px;
 }
 .card__meta-category {
@@ -113,8 +114,10 @@ h1 {
   font-size: 1.5rem;
 }
 .card--article__social-media {
-  font-size: 1.5rem;
-  list-style: none;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1rem;
 }
 .card--article__social-media--facebook {
   color: #707070;
@@ -144,14 +147,23 @@ h1 {
   padding: 0px;
 }
 
-.form {
-  margin-top: 1rem;
+.footer {
+  padding-top: 4rem;
+  background-color: #efefef;
 }
-.form__input {
+.footer__title {
+  margin-top: 0;
   font-family: "Fira Sans", serif;
+  font-size: 1.5rem;
+}
+
+.form__input {
+  min-width: 2rem;
   border: 0.05rem solid #efefef;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
+  font-weight: 600;
   border-radius: 0;
+  font-family: "Fira Sans", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

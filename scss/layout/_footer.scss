@@ -1,0 +1,9 @@
+.footer{
+    padding-top: 4rem;
+    background-color: $color-quaternary;
+
+    &__title {
+        @include title;
+        font-size: $medium;
+    }
+}

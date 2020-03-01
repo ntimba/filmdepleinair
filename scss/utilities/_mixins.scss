@@ -5,7 +5,6 @@
 @mixin btn {
     background:$color-primary;
     color: $color-secondary;
-    font-weight: $semibold;
     font-family: $display;
     border-radius: none;
     padding: $btn-pole $btn-side;
@@ -116,30 +115,10 @@
 }
 
 @mixin input {
-    border: 1px solid $color-quaternary;
-    padding: $mall $large;
-    font-weight: $semibold;
-}
-
-
-// Social media
-
-
-
-
-// ***************
-// ****Form*******
-// ***************
-@mixin input {
-    font-family: $display;
     border: .05rem solid $color-quaternary;
-    padding: 1.5rem 2rem;
+    padding: $small $large;
+    font-weight: $semibold;
     border-radius: 0;
-}
-
-
-@mixin social-media {
-    font-size: $medium;
-    list-style: none;
+    font-family: $display;
 }
 

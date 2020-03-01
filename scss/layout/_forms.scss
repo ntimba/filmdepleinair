@@ -1,6 +1,6 @@
 .form{
-    margin-top: 1rem;
     &__input{
+        min-width: 2rem;
         @include input;
     }
 }

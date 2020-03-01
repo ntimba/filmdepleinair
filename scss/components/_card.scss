@@ -1,4 +1,6 @@
 .card{
+    background: none;
+    border: none;
     border-radius: 0px;
     &__meta-category{
         margin-bottom: 1rem;
@@ -90,7 +92,7 @@
 
     &__social-media{
         @include social-media;
-
+        font-size: $small;
         &--facebook{
             color: $color-tertiary;
             &:hover{
