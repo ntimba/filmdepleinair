@@ -74,15 +74,155 @@
     <!-- Bouton -->
     <br><br><br>
     <button class="button">Bouton</button>
+    <br><br><br>
+
     <!-- Card -->
     <div class="card">
-            <div class="d-flex">
-                <i class="fas fa-chair card__icon"></i>
-                <h5 class="heading--medium card__title">Reserver votre chaise</h5>
+        <div class="card-body">
+            <div class="heading d-flex">
+                <span class="card__icon">
+                    <i class="fas fa-american-sign-language-interpreting heading--medium"></i>
+                </span>
+                <h5 class="card__title">Reserver votre chaise</h5>
             </div>
-            <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nostrum inventore dignissimos iusto expedita obcaecati, quam magnam numquam ad nam, laudantium libero in voluptas dolores corporis, vero magni consequatur quaerat?</p>
-            <a href="#" class="__link">Lire la suite</a>
+            <p class="card__text">Les vidéos seront sous-titrer Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nostrum inventore dignissimos iusto expedita obcaecati, quam magnam numquam ad nam, laudantium libero in voluptas dolores corporis, vero magni consequatur quaerat?</p>
+            <a href="#" class="card__link--decorated">Lire la suite</a>
+        </div>
     </div>
+
+    <br><br><br><br>
+
+    <!-- Card avec photo -->
+    <div class="card mb-3" style="width: 600px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="./public/uploads/omarsy.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <div class="card__meta-category">
+                        <a class="card__category" href="#">
+                            <span class="card__category-drop-caps">N</span>
+                            <span class="">News</span>
+                        </a>
+                    </div>
+
+                    <div class="d-flex">
+                        <h5 class="card--with-picture__title">Card title</h5>
+                    </div>
+                    <ul class="card__meta d-flex">
+                        <li class="meta-author"><span>écrit par </span> <span class="author"><a href="#" title="Voir tout les post de Chancy" class="card__link" >Jean Schweizer</a></span></li>
+                        <li class="meta-date">14 Février 2020</li>
+                        <li class="meta-views">882 vues</li>
+                    </ul>
+                    <p class="card__text">Lorem, ipsum dolor sit amet consectetur obcaecati dolores enim perferendis autem consequuntur deleniti, quos veritatis corporis quam! Odit, atque?</p>
+                    
+                    <a href="#" class="card__link--decorated">Lire la suite</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card article -->
+    <div class="card mb-3" style="width: 600px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="./public/uploads/omarsy.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <div class="card__meta-category">
+                        <a class="card__category" href="#">
+                            <span class="card__category-drop-caps">N</span>
+                            <span class="">News</span>
+                        </a>
+                    </div>
+
+                    <div class="d-flex">
+                        <h5 class="card--with-picture__title">Card title</h5>
+                    </div>
+                    <ul class="card__meta d-flex">
+                        <li class="meta-author"><span>écrit par </span> <span class="author"><a href="#" title="Voir tout les post de Chancy" class="card__link" >Jean Schweizer</a></span></li>
+                        <li class="meta-date">14 Février 2020</li>
+                        <li class="meta-views">882 vues</li>
+                    </ul>
+                    <p class="card__text">Lorem, ipsum dolor sit amet consectetur obcaecati dolores enim perferendis autem consequuntur deleniti, quos veritatis corporis quam! Odit, atque?</p>
+                    
+                    <a href="#" class="card__link--decorated">Lire la suite</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="card card--article" style="width: 18rem;">
+        <img src="./public/uploads/omarsy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <div class="card__meta-category">
+                <a class="card__category" href="#">
+                    <span class="card__category-drop-caps">N</span>
+                    <span class="">News</span>
+                </a>
+            </div>
+          <h5 class="card-title card--article__title"> <a href="#" class="card__link--decorated">Card title lorem</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text"><small class="text-muted"> <a href="#" class="card__link">Françoi Dupond</a> -  <a href="#" class="card__link">01 mars 2020</a> </small></p>
+
+          
+          
+          <ul class="d-flex card--article__social-media justify-content-between">
+              <li><a href="#" class="card--article__social-media--facebook"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#" class="card--article__social-media--twitter"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" class="card--article__social-media--youtube"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="#" class="card--article__social-media--instagram"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="card card--trailer" style="width: 18rem;">
+        <img src="./public/uploads/interview.jpg" class="card-img-top trailer__img" alt="...">
+        <span class="card--trailer__play-button">
+            <a href=""><i class="fas fa-play"></i></a>
+        </span>
+        <div class="card-body card--trailer__meta">
+            <p class="card-text"><a href="#" class="card--trailer__link">Titre film</a></p>
+        </div>
+    </div>
+
+
+    <br><br><br><br>
+    <!-- Social media -->
+    <ul class="d-flex card--article__social-media justify-content-between">
+        <li>
+            <a href="#" class="card--article__social-media--facebook"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="#" class="card--article__social-media--twitter"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="#" class="card--article__social-media--youtube"><i class="fab fa-youtube"></i></a>
+        </li>
+        <li>
+            <a href="#" class="card--article__social-media--instagram"><i class="fab fa-instagram"></i></a>
+        </li>
+    </ul>
+
+    <br><br><br>
+
+    <!-- formulaire -->
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control form__input" id="name" aria-describeby="nameHelp" placeholder="First Name" > 
+        <small id="nameHelp">Just enter your name</small>
+    </div>
+
+    <a href="#" class="card--article__link-test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem maiores, quibusdam facilis enim voluptatem ad voluptatum ex distinctio atque aperiam, id incidunt, et neque accusantium iste non rem laboriosam.</a>
+
+
+    <br><br><br><br>
+
     
     <!-- Card description -->
     <!-- Card article horizontal -->

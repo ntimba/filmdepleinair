@@ -1,0 +1,6 @@
+.form{
+    margin-top: 1rem;
+    &__input{
+        @include input;
+    }
+}

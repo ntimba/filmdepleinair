@@ -1,11 +1,124 @@
 .card{
     border-radius: 0px;
-    padding: 2rem;
-    &__title{
-        font-family: $display;
+    &__meta-category{
+        margin-bottom: 1rem;
     }
-    &__icon{
-        font-size: 2rem;
+
+    &__category{
+        color: $color-secondary;
+        font-weight: $semibold;
+        font-family: $display;
+
+        &:hover{
+            text-decoration: none;
+            color: $color-tertiary;
+        }
+
+        &-drop-caps{
+            @include drop-caps;
+        }
+
+    }
+
+    &__title{
+        @include title;
+        font-size: $large;
+        margin-left: $small;
+    }
+
+    &__meta{
+        @include card-meta;
+    }
+
+    &__text{
+        @include text;
     }
     
+    &__icon{
+        font-size: $large;
+    }
+
+    &__link{
+        @include link;
+        &:hover{
+            @include link-hover;
+        }
+    }
+
+    &__link--decorated{
+        @include link-decorated;
+        &:hover{
+            @include link-decorated-hover
+        }
+    }
+}
+
+
+.card--with-picture{
+    &__title{
+        @include title;
+        font-size: $large;
+    }
+}
+
+.card--trailer{
+    border:none;
+    
+    &__play-button{
+        @include play-button;
+
+        a{
+            color: $color-secondary;
+        }
+    }
+
+    &__meta{
+        padding: 1rem 0;
+    }
+    
+    &__link{
+        @include link-decorated;
+    }
+
+}
+
+.card--article{
+    &__title{
+        @include title;
+        font-size: $medium;
+    }
+
+    &__social-media{
+        @include social-media;
+
+        &--facebook{
+            color: $color-tertiary;
+            &:hover{
+                color: $color-facebook;
+            }
+        }
+        &--twitter{
+            color: $color-tertiary;
+            &:hover{
+                color: $color-twitter;
+            }
+        }
+        &--youtube{
+            color: $color-tertiary;
+            &:hover{
+                color: $color-youtube;
+            }
+        }
+        &--instagram{
+            color: $color-tertiary;
+            &:hover{
+                color: $color-instagram;
+            }
+        }
+    }
+
+    ul{
+        padding: 0px;
+    }
+
 }

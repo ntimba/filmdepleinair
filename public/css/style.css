@@ -1,9 +1,5 @@
 body {
   font-family: "Martel", serif;
-}
-
-body {
-  font-family: "Trirong", serif;
   font-weight: 300;
 }
 
@@ -17,19 +13,145 @@ h1 {
   font-weight: 600;
   font-family: "Fira Sans", serif;
   border-radius: none;
-  padding: 0.4rem 0.9rem;
+  padding: 0.5rem 1.5rem;
   border: none;
+  text-decoration: none;
 }
 
 .card {
   border-radius: 0px;
-  padding: 2rem;
+}
+.card__meta-category {
+  margin-bottom: 1rem;
+}
+.card__category {
+  color: #333;
+  font-weight: 600;
+  font-family: "Fira Sans", serif;
+}
+.card__category:hover {
+  text-decoration: none;
+  color: #707070;
+}
+.card__category-drop-caps {
+  font-family: "Fira Sans", serif;
+  background: #ffcc00;
+  font-weight: 600;
+  padding: 0.5rem;
 }
 .card__title {
+  margin-top: 0;
   font-family: "Fira Sans", serif;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.card__meta {
+  list-style: none;
+  padding: 0;
+  font-size: 0.75rem;
+  color: #707070;
+  text-transform: uppercase;
+}
+.card__text {
+  font-family: "Martel", serif;
+  font-size: 1rem;
 }
 .card__icon {
   font-size: 2rem;
+}
+.card__link {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+.card__link:hover {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+.card__link--decorated {
+  color: #333;
+  border-bottom: 0.1rem solid #ffcc00;
+}
+.card__link--decorated:hover {
+  text-decoration: none;
+  color: #333;
+  background-color: #ffcc00;
+}
+
+.card--with-picture__title {
+  margin-top: 0;
+  font-family: "Fira Sans", serif;
+  font-size: 2rem;
+}
+
+.card--trailer {
+  border: none;
+}
+.card--trailer__play-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffcc00;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+.card--trailer__play-button a {
+  color: #333;
+}
+.card--trailer__meta {
+  padding: 1rem 0;
+}
+.card--trailer__link {
+  color: #333;
+  border-bottom: 0.1rem solid #ffcc00;
+}
+
+.card--article__title {
+  margin-top: 0;
+  font-family: "Fira Sans", serif;
+  font-size: 1.5rem;
+}
+.card--article__social-media {
+  font-size: 1.5rem;
+  list-style: none;
+}
+.card--article__social-media--facebook {
+  color: #707070;
+}
+.card--article__social-media--facebook:hover {
+  color: #29487D;
+}
+.card--article__social-media--twitter {
+  color: #707070;
+}
+.card--article__social-media--twitter:hover {
+  color: #1DA1F2;
+}
+.card--article__social-media--youtube {
+  color: #707070;
+}
+.card--article__social-media--youtube:hover {
+  color: #FF0000;
+}
+.card--article__social-media--instagram {
+  color: #707070;
+}
+.card--article__social-media--instagram:hover {
+  color: #000000;
+}
+.card--article ul {
+  padding: 0px;
+}
+
+.form {
+  margin-top: 1rem;
+}
+.form__input {
+  font-family: "Fira Sans", serif;
+  border: 0.05rem solid #efefef;
+  padding: 1.5rem 2rem;
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,6 +10,7 @@
     border-radius: none;
     padding: $btn-pole $btn-side;
     border: none;
+    text-decoration: none;
 }
 
 // Links
@@ -22,33 +23,44 @@
 @mixin link-hover {
     text-decoration: none;
     font-weight: $semibold;
+    color: $color-secondary;
 }
 
 @mixin link-decorated {
-    border-bottom: $extra-small;
+    color: $color-secondary;
+    border-bottom: .1rem solid $color-primary;
 }
 
 @mixin link-decorated-hover {
     text-decoration: none;
+    color: $color-secondary;
     background-color: $color-primary;
 }
 
 // Titles
 @mixin title {
+    margin-top: 0;
     font-family: $display;
 }
 
+@mixin mutted {
+    font-size: 0.8rem;
+}
 
 // textes
 @mixin text {
     font-family: $text;
+    font-size: $small;
 }
 
+// DROP CAPS
+
 @mixin drop-caps {
-    color: $color-secondary;
-    background-color: $color-primary;
+    font-family: $display;
+    background: $color-primary;
     font-weight: $semibold;
     padding: $extra-small;
+   
 }
 
 // Sizes
@@ -74,8 +86,17 @@
 
 // Card meta
 @mixin card-meta {
+    list-style: none;
+    padding: 0;
+    font-size: $mutted;
     color: $color-tertiary;
     text-transform: uppercase;
+}
+
+@mixin category {
+    text-decoration: none;
+    color: $color-secondary;
+    font-weight: $semibold;
 }
 
 // Play button
@@ -90,7 +111,8 @@
 
 @mixin social-media {
     list-style-type: none;
-    padding-left: 0
+    padding: 0px;
+    margin: 0px;
 }
 
 @mixin input {
@@ -98,3 +120,26 @@
     padding: $mall $large;
     font-weight: $semibold;
 }
+
+
+// Social media
+
+
+
+
+// ***************
+// ****Form*******
+// ***************
+@mixin input {
+    font-family: $display;
+    border: .05rem solid $color-quaternary;
+    padding: 1.5rem 2rem;
+    border-radius: 0;
+}
+
+
+@mixin social-media {
+    font-size: $medium;
+    list-style: none;
+}
+
