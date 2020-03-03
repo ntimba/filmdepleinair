@@ -3,4 +3,8 @@
         min-width: 2rem;
         @include input;
     }
+
+    &__button{
+        @include btn;
+    }
 }
