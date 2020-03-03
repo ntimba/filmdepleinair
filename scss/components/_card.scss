@@ -49,13 +49,10 @@
 
     &__link--decorated{
         @include link-decorated;
-        &:hover{
-            @include link-decorated-hover
-        }
     }
 }
 
-
+  
 .card--with-picture{
     &__title{
         @include title;
@@ -94,28 +91,16 @@
         @include social-media;
         font-size: $small;
         &--facebook{
-            color: $color-tertiary;
-            &:hover{
-                color: $color-facebook;
-            }
+            @include facebook-logo;
         }
         &--twitter{
-            color: $color-tertiary;
-            &:hover{
-                color: $color-twitter;
-            }
+            @include twitter-logo
         }
         &--youtube{
-            color: $color-tertiary;
-            &:hover{
-                color: $color-youtube;
-            }
+            @include youtube-logo;
         }
         &--instagram{
-            color: $color-tertiary;
-            &:hover{
-                color: $color-instagram;
-            }
+            @include instagram-logo;
         }
     }
 

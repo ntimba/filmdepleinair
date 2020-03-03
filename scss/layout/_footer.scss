@@ -1,9 +1,57 @@
 .footer{
-    padding-top: 4rem;
+    padding-top: 2rem;
     background-color: $color-quaternary;
 
-    &__title {
+    &__copyright{
+        margin-top: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        border-top: 0.01rem solid lightgray;
+        text-align: left;
+    }
+
+    &__copyright-logo{
+        width: 300px;
+        img{
+            width: 6rem;
+        }
+    }
+}
+
+.footer-section{
+    &__title{
+        padding-top: 3rem;
         @include title;
         font-size: $medium;
+    }
+    &__text{
+        @include text;
+    }
+    &__social-media{
+        @include social-media;
+        &--facebook{
+            @include facebook-logo;
+        }
+        &--twitter{
+            @include twitter-logo
+        }
+        &--youtube{
+            @include youtube-logo;
+        }
+        &--instagram{
+            @include instagram-logo;
+        }
+    }
+
+    &__link{
+        @include link-decorated;
+        display: inline-block;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+
+    &__newsletter{
+
     }
 }

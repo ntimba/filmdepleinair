@@ -15,27 +15,27 @@
 </head>
 <body>
     <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light nav ">
-        <a class="navbar-brand" href="#"> <img class="logo" src="./public/imgs/logo_pleinair.png" alt="les films de plein air"> </a>
+    <nav class="navbar navbar-expand-lg navbar-light navigation">
+        <a class="navbar-brand" href="#"> <img class="navigation__logo" src="./public/imgs/logo_pleinair.png" alt="les films de plein air"> </a>
         <button class="navbar-toggler manu-bars" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
               <ul class="navbar-nav ml-auto">
-                <li class="nav__link nav__link--active">
-                      <a class="" href="#">Accueil <span class="sr-only">(current)</span></a>
+                <li class="">
+                      <a class="navigation__link navigation__link--active" href="#">Accueil <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav__link">
-                    <a class="" href="#">Réservation</a>
+                <li class="">
+                    <a class="navigation__link" href="booking.html">Réservation</a>
                 </li>
-                <li class="nav__link">
-                    <a class="" href="#">Actualité</a>
+                <li class="">
+                    <a class="navigation__link" href="news.html">Actualité</a>
                 </li>
-                <li class="nav__link">
-                    <a class="" href="#">Contact</a>
+                <li class="">
+                    <a class="navigation__link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav__link __link--button d-none d-lg-block"><!-- Desactiver pour les smartphone -->
-                    <a href="">Reserver</a>
+                <li class="d-none d-lg-block"><!-- Desactiver pour les smartphone -->
+                    <a href="booking.html" class="navigation__button">Reserver</a>
                 </li>
             </ul>
         </div>
@@ -46,6 +46,7 @@
 
 
 
+<br><br><br><br>
 
 
 <div class="container">
@@ -251,13 +252,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="heading d-flex">
-                            <h3 class="card__title">Les films de Plein air</h3>
+                <div class="footer-section">
+                    <div class="">
+                        <div class="d-flex">
+                            <h3 class="footer-section__title">Les films de Plein air</h3>
                         </div>
-                        <p class="card__text">Les vidéos seront sous-titrer Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nostrum </p>
-                        <ul class="d-flex card--article__social-media justify-content-between">
+                        <p class="footer-section__text">Les vidéos seront sous-titrer Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nostrum </p>
+                        <ul class="d-flex footer-section__social-media justify-content-between">
                             <li>
                                 <a href="#" class="card--article__social-media--facebook"><i class="fab fa-facebook"></i></a>
                             </li>
@@ -277,24 +278,24 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="">
                         <div class="heading d-flex">
-                            <h3 class="card__title">Mentions légals</h3>
+                            <h3 class="footer-section__title">Mentions légals</h3>
                         </div>
-                        <p class="card__text">Les vidéos seront sous-titrer Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nostrum </p>
-                        <a href="#" class="card__link--decorated">Protection des données</a>
-                        <a href="#" class="card__link--decorated">Mentions légales</a>
+                        <p class="footer-section__text">Les vidéos seront sous-titrer Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nostrum </p>
+                        <a href="dataprotection.html" class="footer-section__link">Protection des données</a>
+                        <a href="legalnotice.html" class="footer-section__link">Mentions légales</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
+                <div class="card">  
+                    <div class="">
                         <div class="heading d-flex">
-                            <h3 class="card__title">Restons en contact</h3>
+                            <h3 class="footer-section__title">Restons en contact</h3>
                         </div>
-                        <p class="card__text">Les vidéos seront sous-titrer Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nostrum </p>
+                        <p class="footer-section__text">Les vidéos seront sous-titrer Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nostrum </p>
                         <form action="" class="form">
                             <div class="row">
                                 <div class="col-md-12">
@@ -309,6 +310,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+
+    
+        <div class="footer__copyright">
+            <a href="https://ntimba.com" class="footer__copyright-logo justify-content-end"><img src="./public/imgs/logo-ntimba.png" alt=""></a>
         </div>
     </div>
 </footer>

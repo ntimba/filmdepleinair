@@ -1,0 +1,34 @@
+.navigation{
+    &__logo{
+        width: 10rem;
+    }
+
+    // les menu
+    &__link{
+        @include link;
+        margin-right: .5rem;
+
+        &--active{
+            @include link-nav;
+        }
+
+        &:hover{
+            @include link-nav;
+        }
+    }
+
+
+    &__button{
+        margin-left: 1rem;
+        @include btn;
+
+        &:hover{
+            background-color: $color-secondary;
+            color: $color-primary;
+            text-decoration: none;
+        }
+    }
+
+
+    border-bottom: 1px solid $color-quaternary;
+}

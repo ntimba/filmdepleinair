@@ -1,3 +1,104 @@
+// Links
+@mixin link-nav{
+    text-decoration: none;
+    color: $color-secondary;
+    border-bottom: .1rem solid $color-primary;
+}
+
+@mixin link {
+    color: $color-secondary;
+    font-weight: $semibold;
+    text-decoration: none;
+}
+
+@mixin link-hover {
+    text-decoration: none;
+    color: $color-secondary;
+}
+
+
+@mixin link-decorated {
+    text-decoration: none;
+    color: $color-secondary;
+    border-bottom: .1rem solid $color-primary;
+    &:hover{
+        text-decoration: none;
+        color: $color-secondary;
+        background-color: $color-primary;
+    }
+}
+
+
+
+// Title
+@mixin title {
+    margin-top: 0;
+    font-family: $display;
+}
+
+// textes
+@mixin text {
+    font-family: $text;
+    font-size: $small;
+}
+
+// Card 
+@mixin card {
+    background-color: none;
+    border: none;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+// Logo réseaux sociaux ---------------------
+@mixin facebook-logo {
+    color: $color-tertiary;
+    &:hover{
+        color: $color-facebook;
+    }
+}
+
+@mixin twitter-logo {
+    color: $color-tertiary;
+    &:hover{
+        color: $color-twitter;
+    }
+}
+
+@mixin youtube-logo {
+    color: $color-tertiary;
+    &:hover{
+        color: $color-youtube;
+    }
+}
+
+@mixin instagram-logo {
+    color: $color-tertiary;
+    &:hover{
+        color: $color-instagram;
+    }
+}
+// ------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12,45 +113,41 @@
     text-decoration: none;
 }
 
-// Links
-@mixin link {
-    color: $color-secondary;
-    font-weight: $semibold;
-    text-decoration: none;
-}
 
-@mixin link-hover {
-    text-decoration: none;
-    font-weight: $semibold;
-    color: $color-secondary;
-}
 
-@mixin link-decorated {
-    color: $color-secondary;
-    border-bottom: .1rem solid $color-primary;
-}
 
-@mixin link-decorated-hover {
-    text-decoration: none;
-    color: $color-secondary;
-    background-color: $color-primary;
-}
 
-// Titles
-@mixin title {
-    margin-top: 0;
-    font-family: $display;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @mixin mutted {
     font-size: 0.8rem;
 }
 
-// textes
-@mixin text {
-    font-family: $text;
-    font-size: $small;
-}
+
 
 // DROP CAPS
 
@@ -116,8 +213,8 @@
 
 @mixin input {
     border: .05rem solid $color-quaternary;
-    padding: $small $large;
-    font-weight: $semibold;
+    padding: 0.5rem 0.7rem;
+    font-weight: $normal;
     border-radius: 0;
     font-family: $display;
 }
