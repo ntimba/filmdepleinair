@@ -293,4 +293,9 @@ h1 {
   padding-top: 3rem;
 }
 
+.news__title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
