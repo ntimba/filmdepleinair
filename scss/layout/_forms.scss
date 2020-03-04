@@ -2,9 +2,15 @@
     &__input{
         min-width: 2rem;
         @include input;
+        margin-bottom: 1rem;
     }
 
     &__button{
         @include btn;
+    }
+
+    &__textarea{
+        @include textarea;
+        border-radius: 0px;
     }
 }

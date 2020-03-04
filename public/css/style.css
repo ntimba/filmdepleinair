@@ -154,6 +154,7 @@ h1 {
 }
 
 .footer {
+  margin-top: 10rem;
   padding-top: 2rem;
   background-color: #efefef;
 }
@@ -231,6 +232,7 @@ h1 {
   font-weight: 400;
   border-radius: 0;
   font-family: "Fira Sans", serif;
+  margin-bottom: 1rem;
 }
 .form__button {
   background: #ffcc00;
@@ -240,6 +242,13 @@ h1 {
   padding: 0.5rem 1.5rem;
   border: none;
   text-decoration: none;
+}
+.form__textarea {
+  margin-top: 1rem;
+  border: 0.05rem solid #efefef;
+  font-family: "Fira Sans", serif;
+  height: 50px;
+  border-radius: 0px;
 }
 
 .navigation {

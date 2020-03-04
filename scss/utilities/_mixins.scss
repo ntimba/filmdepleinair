@@ -219,3 +219,10 @@
     font-family: $display;
 }
 
+@mixin textarea{
+    margin-top: 1rem;
+    border: .05rem solid $color-quaternary;
+    font-family: $display;
+    height: 50px;
+}
+
